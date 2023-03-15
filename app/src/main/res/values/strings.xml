@@ -1,7 +1,7 @@
 <resources>
 
-    <string name="app_in_name">Library</string>
-    <string name="app_name_after">Book library App</string>
+    <string name="app_in_name">GEO App</string>
+    <string name="app_name_after">Countries App</string>
     <string name="app_in_name1">BAA App Company</string>
     <string name="app_in_name2">BAA App Company</string>
     <string name="app_name_after1">Here you can add new information</string>
@@ -13,7 +13,7 @@
     <string name="btn_Register">Register</string>
     <string name="btn_Quit">Quit</string>
     <string name="btn_Add">Add new information</string>
-    <string name="app_name">Library</string>
+    <string name="app_name">GEO App</string>
     <string name="todo">TODO</string>
     <string name="delete_all">Delete All</string>
 </resources>

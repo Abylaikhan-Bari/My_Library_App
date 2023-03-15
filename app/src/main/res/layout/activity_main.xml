@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:id="@+id/root_element"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        app:srcCompat="@drawable/gb1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/suez_one"
+            android:gravity="center_horizontal"
+            android:text="@string/app_in_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="35sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="33dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/montserrat"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name_after"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="111dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/text_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:text="@string/text_bottom"
+        android:textAlignment="center"
+        android:textColor="@color/text_bottom"
+        android:textSize="15sp"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_bottom"
+        android:layout_margin="70dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <Button
+            android:id="@+id/btnSignIn"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="6dp"
+
+            android:layout_weight="1"
+            android:backgroundTint="@color/btn_sign_in"
+            android:fontFamily="serif"
+            android:text="@string/btn_SignIn"
+            android:textColor="@color/white"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnRegister"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="6dp"
+
+            android:layout_weight="1"
+            android:backgroundTint="@color/btn_register"
+            android:fontFamily="serif"
+            android:text="@string/btn_Register"
+            android:textColor="@color/white"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_bottom"
+        android:layout_margin="10dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <Button
+            android:id="@+id/btnQuit1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+
+            android:layout_weight="2"
+            android:backgroundTint="@color/btn_quit1"
+            android:fontFamily="serif"
+            android:text="@string/btn_Quit"
+            android:textColor="@color/white"
+            app:backgroundTint="#6C2323"
+            tools:ignore="RtlHardcoded" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
